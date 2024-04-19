@@ -62,8 +62,18 @@
 
 .link{
     object-fit: cover;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     margin: 0 0.75rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width:480px) {
+    .link{
+        object-fit: cover;
+        height: 2rem;
+        width: 2rem;
+        margin: 0 0.5rem;
+        border-radius: 50%;
+    }
 }
