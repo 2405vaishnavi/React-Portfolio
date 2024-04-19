@@ -1,0 +1,129 @@
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skillTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.skills{
+    display: flex;
+}
+
+/* skills.css */
+
+@media screen and (max-width: 480px) {
+    .skills {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        align-items: center; 
+    }
+
+    .skillBars {
+        /* width: 100%;  */
+        width: 200vw;
+        /* height: 20vh; */
+        max-width: none; 
+        margin-right: 100px;
+    }
+    
+    .skillBar {
+        margin: 1rem 0; 
+        height: 15vh;
+        width: 25vw;
+
+    }
+
+    .skillBarImg {
+        height: 2.5rem; 
+        width: 2.5rem; 
+    }
+
+    .skillBarText>h2 {
+        font-weight: 200;
+        text-align: left;
+    }
+}
+
+
+ .head{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 40px;
+    border-bottom: 4px solid yellow;
+}
+
+
+.skillBars{
+    margin-top: 1.5rem;
+    width: 10vw;
+    text-align: center;
+}
+
+.skillBar{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.skillBarImg{
+    object-fit: cover;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 2rem;
+}
+
+.skillBarText>h2{
+    margin-top: .5rem;
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+
+@media screen and (max-width : 480px) {
+    .skillBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillBarText>h2{
+        font-size:4vw;
+        text-align: center;
+    }
+}
+
+.SoftskillBarText{
+    margin-top: 2rem;
+    font-family: 'roboto';
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+}
+
+.SoftskillBarText p{
+    padding: .2rem;
+}
+
